@@ -1,0 +1,4 @@
+HTML - Hyper Text Markup Language 
+HTML Tags - A container for some content or other html tags.
+Attributes - Attributes are used to add more information about the tag.
+E.g. - <html lang="en">
