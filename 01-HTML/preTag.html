@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WDJ</title>
+    </head>
+    <body>
+        <!-- Text inside a <pre> element is displayed in a fixed-width font (usually Courier or monospace) and preserves both spaces and line breaks exactly as typed in the code. -->
+        <h3> Java Code For Inheritance </h3>
+        <pre><p>
+            class Animals{
+                String name;
+                public void eats(){
+                    System.out.println(name + "is eating");
+                }
+            }
+            class Cat extends Animals{
+                public void meow(){
+                    System.out.println(name + " Says Meaw Meaw");
+                }
+            }
+            public class HavingMain{
+                public static void main(String[]args){
+                    Cat obj1=new Cat();
+                    obj1.name = "Max";
+                    obj1.eats();
+                    obj1.meow();
+                }
+            }
+        </p></pre>
+        <pre>
+
+            <p><b>Output</b>
+            Max is eating 
+            Max says Meaw Meaw
+            </p>
+        </pre>
+        <p>All above code are displayed as it is on the display as it written , that all done by using pre tag</p>
+    </body>
+</html>
