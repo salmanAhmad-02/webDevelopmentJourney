@@ -1,0 +1,15 @@
+/* direct color  */
+h2{
+    color: aqua;
+}
+
+/* hex code */ 
+h3{
+    color: #ab00ff;
+}
+
+
+/* rgb value */
+p{
+    color: rgb(120, 220,20);
+}
