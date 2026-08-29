@@ -1,0 +1,13 @@
+/* text-decoration property
+    set the appearence of the line 
+        overline
+        underline
+        linethrough
+        dashed --- shape
+        dotted --- shape
+        double --- shape
+        none
+*/
+h2{
+    text-decoration:underline;
+}
