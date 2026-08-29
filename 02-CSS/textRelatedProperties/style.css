@@ -1,0 +1,15 @@
+/* text-align */
+/* there are prperrties like :
+    left
+    right
+    center
+    start 
+    end
+    justify
+ */
+ h2{
+    text-align: center;
+ }
+ p{
+    text-align: justify;
+ }
