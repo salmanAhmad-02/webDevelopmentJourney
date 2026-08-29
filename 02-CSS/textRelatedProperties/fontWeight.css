@@ -1,0 +1,9 @@
+/* font-weight properrty
+    normal
+    bold
+    400--normal
+    700--bold
+*/
+h1{
+    font-weight: 700;
+}
