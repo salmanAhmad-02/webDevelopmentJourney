@@ -6,7 +6,7 @@
         dashed --- shape
         dotted --- shape
         double --- shape
-        none
+        none -- used to have not any line under or above 
 */
 h2{
     text-decoration:underline;
