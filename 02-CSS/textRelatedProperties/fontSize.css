@@ -1,21 +1,24 @@
 /* font-size Property 
     there are two categories of size.
     --Absolute
-        px
-        pt
-        pc
-        cm
-        mm
-        in
+        px -- fixed size screen pixels
+        pt -- standard point unit where 1 point is equal to 1/72 of inch
+        pc -- pcas,equal to 12 points
+        cm -- centimeter
+        mm -- milimeters
+        in -- inches
     --Relative
-        %
-        em
-        rem
-        ch
-        yh
-        vw
+        % -- scales text relative to the parent elements font size
+        em -- Element em, Ralative to the font size of the parent element
+        rem -- Root em, ralative to font size of the root <html>
+        ch -- Relative to the width of the '0' glyph in the element font
+        vh -- viewport height, scales the relative to the browser window height
+        vw -- Viewport width, relative to 1% of the viewport width 
         and many more
 */
 h2{
     font-size: 200%;
+}
+p{
+    font-size: 16px;
 }
