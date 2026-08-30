@@ -1,0 +1,6 @@
+/* Universal Selector
+    to select everything in a document.
+*/
+*{
+    margin-left: 40px;
+}
