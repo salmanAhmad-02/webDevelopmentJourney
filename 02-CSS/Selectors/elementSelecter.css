@@ -1,0 +1,17 @@
+/* elment selecter
+    Select all the elemts of the same type
+*/
+body{
+    background-color:rgb(243, 226, 178);
+    margin-left: 40px;
+}
+h1,h2{
+    color: rgb(79, 7, 7);
+}
+p{
+    color: black;
+    text-align: justify;
+}
+ul{
+    list-style-type: disc;
+}
