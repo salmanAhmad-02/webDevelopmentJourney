@@ -1,0 +1,21 @@
+/* font-size Property 
+    there are two categories of size.
+    --Absolute
+        px
+        pt
+        pc
+        cm
+        mm
+        in
+    --Relative
+        %
+        em
+        rem
+        ch
+        yh
+        vw
+        and many more
+*/
+h2{
+    font-size: 200%;
+}
