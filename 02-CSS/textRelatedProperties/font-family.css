@@ -1,0 +1,6 @@
+/* font-family --
+    Specifies a prioritized list of one or more font family names.
+*/
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
