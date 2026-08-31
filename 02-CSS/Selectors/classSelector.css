@@ -1,0 +1,14 @@
+.content_about p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 0.5cm;
+    margin-top: auto;
+    margin-right: auto;
+}
+.item_list li{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 0.8cm;
+}
