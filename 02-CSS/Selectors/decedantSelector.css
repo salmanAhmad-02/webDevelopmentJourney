@@ -1,0 +1,10 @@
+/* Decendant Selector
+    Need to write out element and the inner element.
+    or can be using class name followed by inner element.
+    we have used this in classSelector.css file .
+*/
+/* for e.g.
+    div p{
+        property:value;
+    }
+*/
