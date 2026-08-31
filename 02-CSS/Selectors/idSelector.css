@@ -1,3 +1,42 @@
 /* Id Selector
     Selects an element based on the value of element id attribute
 */
+body{
+    background-color: rgb(243, 226, 178);
+    
+}
+#main-heading h1{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: auto;
+     font-weight: bold;
+     color: rgb(79, 7, 7);
+}
+#introduction p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 0.5cm;
+    margin-top: auto;
+    margin-right: auto;
+}
+#recipe-instructions h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: auto;
+    font-weight: bold;
+    color: rgb(79, 7, 7);
+}
+#recipe-instructions p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 0.5cm;
+    margin-top: auto;
+    margin-right: auto;
+}
+#ingrediants ul{
+    list-style-type: disc;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 0.8cm;
+}
