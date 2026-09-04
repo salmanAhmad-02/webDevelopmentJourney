@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WDJ:Pseudo Classes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="navbar">
+            
+            <nav>
+                <ul>
+                    <li><a href="#"></a>Home</li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes" target="_blank">Visit-MDN</a></li>
+                    <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">W3Schools</a></li>
+                    <li><a href="https://github.com/salmanAhmad-02/webDevelopmentJourney/blob/main/02-CSS/Pseudo-Classes/style.css" target="_blank"></a>Practical-View</li>
+                </ul>
+              </nav>
+        </header>
+
+        <main class="container">
+            <div class="main-content">
+                <h1>Pseudo-Classes</h1>
+                <p>A CSS pseudo-class is a keyword that can be added to a selector, to define a style for a special state of an element.</p><br>
+                <p>Some common use for pseudo-classes:</p>
+                <ul>
+                    <li>Style an element when a user moves the mouse over it</li>
+                    <li>Style visited and unvisited links differently</li>
+                    <li>Style an element when it gets focus</li>
+                    <li>Style valid/invalid/required/optional form elements</li>
+                    <li>Style an element that is the first child of its parent</li>
+                </ul>
+                <div class="syntax">
+                    <h3>Syntax</h3>
+                    <p>Pseudo-classes are always denoted by a single colon (:) followed by the pseudo-class name:</p>
+                    <pre>
+                        <p><code>selector:pseudo-class-name {
+                            CSS properties
+                          }
+                        </code></p>
+                    </pre>
+                    <div class="interactive-pseudo">
+                        <h3>Interactive Pseudo-classes</h3>
+                        <p>Interactive pseudo-classes apply styles based on <b>user interaction:</b></p>
+                        <ul class="list-of-interactive">
+                            <li><p><span>:hover</span> - When mouse is over an element</p></li>
+                            <li><p><span>:focus</span> - When an element has focus</p></li>
+                            <li><p><span>:active</span> - When an element is being activated</p></li>
+                            <li><p><span>:link</span> - Unvisited links</p></li>
+                            <li><p><span>:visited</span>:visited - Visited links</p></li>
+                        </ul>
+                    </div>
+                    <div class="structural-pseudo">
+                        <h3>Structural Pseudo-classes</h3>
+                        <p>Structural pseudo-classes select elements based on <b>their position in the document tree:</b></p>
+                        <ul>
+                            <li><span>:first-child</span> - First child of a parent</li>
+                            <li><span>:last-child</span> - Last child of a parent</li>
+                            <li><span>:nth-child(n)</span> - The nth child of a parent</li>
+                            <li><span>:lang()</span> - Elements with a specific language</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
