@@ -25,9 +25,23 @@
     background-color: #09b144;
   }
 
-  
+
   /* :active pseudo class */
   .btn:active{
     background-color: coral;
     transition: background-color 0.2s ease;
   }
+
+  /* Decendent Selector */
+  nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    gap: 1rem;
+    align-items: center;
+  }
+  /* body{
+    margin-left: 15px;
+  } */
+  
