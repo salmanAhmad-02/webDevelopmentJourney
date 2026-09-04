@@ -18,6 +18,22 @@ h2 + p{
 
 /* Another Example of Sibling Combinator with class */
 .help-text + button{
-    color: yellow;
-    background-color:rgb(203, 52, 52);
+    color: #ffffff;
+    background-color:rgb(168, 22, 93);
 }
+
+/* Subsequent-sibling combinator */
+h2 ~ button{
+    border-radius: 8px;
+    background-color:rgb(168, 22, 93);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer; 
+}
+/* h2 ~ button:hover{
+    background-color: #1d4ed8;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    transform: translateY(-2px);
+} */
