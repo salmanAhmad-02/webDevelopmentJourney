@@ -1,0 +1,17 @@
+/* Child combinator */
+header > h1{
+    color: rgb(135, 51, 51);
+}
+nav > ul{
+    list-style-type: disc;
+    color: black;
+}
+
+/* Adjecent Sibling Combinator */
+
+/* both <h2> and <p> are at the same level, they are siblings */
+h2 + p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:auto;
+    color: black;
+}
