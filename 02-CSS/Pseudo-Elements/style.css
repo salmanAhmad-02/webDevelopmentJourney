@@ -4,3 +4,11 @@
 .psedo-elmnt-eg{
     color: rgb(193, 31, 31);
 }
+
+/* ::first-letter --Pseudo-Element */
+h1{
+    color: green;
+}
+h1::first-letter{
+    color: brown;
+}
