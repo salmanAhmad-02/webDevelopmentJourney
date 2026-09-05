@@ -5,13 +5,28 @@
     color: rgb(193, 31, 31);
 }
 
-/* ::first-letter --Pseudo-Element */
 h1{
     color: green;
 }
+
+/* ::first-letter --Pseudo-Element */
 h1::first-letter{
     color: brown;
 }
+
+/* ::first-line --Pseudo-Element */
 .lorem-massage::first-line{
     color: rgb(160, 15, 15);
 }
+
+/* ::selection --Pseudo-Element */
+.lorem-massage::selection{
+    background-color: rgb(251, 191, 36);
+    color: rgb(24, 24, 27);
+}
+
+/* To apply a custom selection style across your entire web pages */
+/* ::selection {
+    background-color: rgb(222, 113, 198);
+    color: rgb(26, 32, 44);
+} */
