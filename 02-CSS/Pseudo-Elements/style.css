@@ -12,3 +12,6 @@ h1{
 h1::first-letter{
     color: brown;
 }
+.lorem-massage::first-line{
+    color: rgb(160, 15, 15);
+}
