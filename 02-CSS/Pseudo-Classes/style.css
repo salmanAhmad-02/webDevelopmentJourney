@@ -45,3 +45,16 @@
     margin-left: 15px;
   } */
   
+
+  /* :checked - Pseudo Class
+    This pseudo class mostly used with radio buttons or check boxes.
+  */
+  input[type="radio"]:checked + label{
+    color:red;
+    font-weight: bold;
+  }
+
+  /* here i wanted to change color to green when CSS3 being checked --Override for this one  */
+  input[type="radio"]:checked + label[for="course-css"]{
+    color:green;
+  }
