@@ -58,3 +58,10 @@
   input[type="radio"]:checked + label[for="course-css"]{
     color:green;
   }
+
+  /* :nth-of-type()
+    -- A keyword added to selector that specifies a 'Special State' of the selected elements(s).
+  */
+  div:nth-of-type(2){
+    background-color: rgb(236, 236, 197);
+  }
