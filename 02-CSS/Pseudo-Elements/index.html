@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WDJ:Pseudo-Elements</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-container">
+            <div class="page-heading">
+                <h1>Pseudo Elements</h1>
+            </div>
+            <div>
+                <h2>CSS Pseudo-Elements</h2>
+                <p>A CSS pseudo-element is a keyword that can be added to a selector, to style a specific part of an element.</p>
+                <div>
+                    <p>Some common use for pseudo-elements:</p>
+                    <ul>
+                        <li>Style the first letter or first line, of an element</li>
+                        <li>Insert content before or after an element</li>
+                        <li>Style the markers of list items</li>
+                        <li>Style the user-selected portion of an element</li>
+                        <li>Style the viewbox behind a dialog box</li>
+                    </ul>
+                </div>
+                <div class="syntax">
+                    <h3>Syntax</h3>
+                    <p>Pseudo-elements are denoted by a double colon (::) followed by the pseudo-element name:</p>
+                    <pre>
+                        <p style="background-color: rgb(231, 220, 205);">
+                            <span style="color: rgb(82, 10, 10);">selector::pseudo-element-name {</span>
+                                <span style="color: red;">CSS properties</span>
+                            }
+                        </p>
+                    </pre>
+                </div>
+            </div>
+            <div>
+                <h2>Text Pseudo-elements</h2>
+                <p>Text pseudo-elements style specific parts of text content:</p>
+                <ul>
+                    <li><span class="psedo-elmnt-eg">::first-line</span> - Style the first line of text</li>
+                    <li><span class="psedo-elmnt-eg">::first-letter</span> - Style the first letter of text</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Content Pseudo-elements</h2>
+                <p>Content pseudo-elements insert or style generated content:</p>
+                <ul>
+                    <li><span class="psedo-elmnt-eg">::before</span> - Insert content before an element</li>
+                    <li><span class="psedo-elmnt-eg">::after</span> - Insert content after an element</li>
+                    <li><span class="psedo-elmnt-eg">::marker</span>  - Style list item markers</li>
+                    <li><span class="psedo-elmnt-eg">::selection</span> - Style user-selected text</li>
+                    <li><span class="psedo-elmnt-eg">::backdrop</span> - Style dialog backdrop</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Reference</h3>
+                <a href="https://www.w3schools.com/CSS/css_pseudo_elements.asp">W3Schools</a>
+            </div>
+        </main>
+    </body>
+</html>
