@@ -19,7 +19,8 @@
     width: 400px;
 }
 .explanation-part{
-    height: 100px;
+    height: 150px;
+    width: 50%;
 }
 
 /* Border:, Used to set an elements border */
@@ -32,4 +33,9 @@
     border-width: 0.1cm;
     border-style: dotted;
     border-color: rgb(116, 116, 224);
+}
+
+/* Border Shorthand , write all property-values in a single line  */
+.explanation-part{
+    border: 5px, solid, yellowgreen;
 }
