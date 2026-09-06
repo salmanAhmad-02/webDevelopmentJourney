@@ -7,7 +7,7 @@
 /* width: , use to give width area to the content  */
 
 .page-heading{
-    height: 25px;
+    height: 50px;
 }
 .content-para{
     height: 150px;
@@ -20,4 +20,16 @@
 }
 .explanation-part{
     height: 100px;
+}
+
+/* Border:, Used to set an elements border */
+.content-para{
+    border-width: 0.8mm;
+    border-style: solid;
+    border-color: black;
+}
+.page-heading{
+    border-width: 0.1cm;
+    border-style: dotted;
+    border-color: rgb(116, 116, 224);
 }
