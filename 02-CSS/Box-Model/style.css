@@ -39,3 +39,19 @@
 .explanation-part{
     border: 5px, solid, yellowgreen;
 }
+
+/* Border Sides -- to control idivisual sides of the border. like -
+    border-left:
+    borger-right:
+    border-top:
+    border-bottom:
+*/
+.explanation-part{
+    border-left: 5px dashed rgb(92, 187, 216);
+}
+/* OR - Do separately like this :
+.explnation-part{
+    boder-left-width:5px;
+    border-left-style:dashed;
+    border-left-color:rgb(92, 187, 216);
+*/
