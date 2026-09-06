@@ -1,3 +1,18 @@
 .explain{
     font-weight:bold;
 }
+
+/* height */
+/* height for the content area */
+.page-heading{
+    height: 25px;
+}
+.content-para{
+    height: 100px;
+}
+.image-example img{
+    height: 250px;
+}
+.explanation-part{
+    height: 100px;
+}
