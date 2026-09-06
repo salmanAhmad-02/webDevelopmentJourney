@@ -13,3 +13,10 @@ textarea{
 }
 
 /* So each elemnt try to inherit property from parent or grand parent except buttons or input boxes */
+
+/* Some Properties will not inherit by default like 
+    border
+    width
+    height 
+    etc -- we will move futher ...
+*/
