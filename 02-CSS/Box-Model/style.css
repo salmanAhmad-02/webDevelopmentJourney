@@ -2,16 +2,21 @@
     font-weight:bold;
 }
 
-/* height */
-/* height for the content area */
+/* height:, height for the content area */
+
+/* width: , use to give width area to the content  */
+
 .page-heading{
     height: 25px;
 }
 .content-para{
-    height: 100px;
+    height: 150px;
+    width: 500px;
+    background-color: rgb(231, 201, 206);
 }
 .image-example img{
     height: 250px;
+    width: 400px;
 }
 .explanation-part{
     height: 100px;
