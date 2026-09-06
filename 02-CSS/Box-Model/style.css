@@ -55,3 +55,22 @@
     border-left-style:dashed;
     border-left-color:rgb(92, 187, 216);
 */
+
+/* border-radius -- used to shape corners of an elements outer border edge */
+.resourse-link{
+    height: 50px;
+    width: 30px;
+    border: 2px solid rgb(118, 230, 230);
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(12, 183, 100);
+    color: #0f0c0c;
+    
+    /* now on radius */
+    border-radius:6px;
+}
+
+/* other example --*/
+.content-para{
+    border-radius: 10%;
+}
