@@ -1,0 +1,15 @@
+div{
+    background-color: rgb(234, 211, 182);
+}
+h1{
+    background-color: rgb(244, 184, 184);
+}
+
+/* input boxes or buttons not inherit properties from parent */
+
+textarea{
+    /* to inherit from parent , e.g. */
+    background-color: inherit;
+}
+
+/* So each elemnt try to inherit property from parent or grand parent except buttons or input boxes */
