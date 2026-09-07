@@ -97,3 +97,19 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+/* Padding Shorthand -- there are multiple way to provide padding , above listed are done indivisually each side,
+    but you can use it with more ways like lited below --
+
+    1- padding:25px; all four sides
+    2- padding:1px 2px; --- top & botto | left & right 
+    3- padding:1px 2px 3px; -- top | left & right | bottom
+    4- padding:1px 3px 4px 2px;  -- clockwise -- top | right | bottom | left 
+
+    let's use any one as e.g
+*/
+
+/* e.g. Padding Shorthand  */
+.explanation-part{
+    padding: 10px 5px 12px 15px;
+}
