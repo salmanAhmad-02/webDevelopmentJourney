@@ -92,10 +92,12 @@
 .page-heading{
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 15px;
 }
 .content-para{
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 /* Padding Shorthand -- there are multiple way to provide padding , above listed are done indivisually each side,
@@ -113,3 +115,17 @@
 .explanation-part{
     padding: 10px 5px 12px 15px;
 }
+
+/* margin -- to set spacing out side of the border */
+.page-heading{
+    margin-bottom: 15px;
+
+    /* similarly for other sides*/
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* margin shorthand are totally similar as padding shorthand , like --
+    margin:12px 10px 12px 8px; -- clockwise top|right|bottom|left
+*/
