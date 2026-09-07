@@ -67,10 +67,33 @@
     color: #0f0c0c;
     
     /* now on radius */
-    border-radius:6px;
+    border-radius:15px;
 }
 
 /* other example --*/
 .content-para{
     border-radius: 10%;
+}
+
+/* padding 
+    padding-left
+    padding-right
+    padding-top
+    padding-bottum    
+*/
+
+/* Lat's add some padding for out anchor element box */
+.resourse-link{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.page-heading{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.content-para{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
