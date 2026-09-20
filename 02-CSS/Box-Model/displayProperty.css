@@ -12,3 +12,16 @@ span{
     display: block;
     background-color: yellowgreen;
 }
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+/* display: inline-block;
+    Allow browser to apply styles as block element but treat as inline element ,
+    because in just display : inline; the browses ignores the too many styles for that inline element.
+*/
