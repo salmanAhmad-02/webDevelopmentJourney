@@ -129,3 +129,7 @@
 /* margin shorthand are totally similar as padding shorthand , like --
     margin:12px 10px 12px 8px; -- clockwise top|right|bottom|left
 */
+
+/* Display Property
+        Its sets whether the element is treated as block or inline element and the layout used for its children.
+*/
