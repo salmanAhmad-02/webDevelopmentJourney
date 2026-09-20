@@ -1,0 +1,14 @@
+/* Display Property
+        Its sets whether the element is treated as block or inline element and the layout used for its children.
+*/
+/* Although h1 is block element , but using display propeerty i can set it as inline element  */
+h1{
+    display: inline ; 
+    background-color: aqua;
+}
+
+/* Similarly, for an inline element we can set it as block by the display property */
+span{
+    display: block;
+    background-color: yellowgreen;
+}
