@@ -32,3 +32,12 @@ button{
     padding-left: 0.6em;
     padding-right: 0.6em;
 }
+/* rem , it prevent the nested snow ball effect 
+    it's ralted to the root for all nested childrens.
+*/
+section{
+    font-size: 20px;
+}
+div{
+    font-size: 0.7rem;
+}
