@@ -22,3 +22,13 @@ h2{
 p{
     font-size: 16px;
 }
+button{
+    font-size: 30px;
+    border-radius: 13px;
+    border: 2px solid rgb(5, 40, 44);
+    background-color: rgb(105, 174, 220);
+    color: rgb(70, 9, 90);
+    /* giving relative padding to it's font size in em */
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
